@@ -1,0 +1,94 @@
+@mixin blue-ball {
+  position: absolute;
+  left: 20px;
+  top: 243px;
+
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  background: $linear-grad-blue-ball;
+  box-shadow: $box-shadow-balls;
+  z-index: -1;
+}
+
+@mixin blue-ball-1 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  right: 105px;
+  top: 385px;
+  border-radius: 50%;
+  background: $linear-grad-blue-ball;
+  box-shadow: $box-shadow-balls;
+  z-index: -1;
+}
+
+@mixin red-ball {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  right: -40px;
+  top: 97px;
+  border-radius: 50%;
+  background: $linear-grad-red-ball;
+  box-shadow: $box-shadow-balls;
+  z-index: -1;
+}
+
+@mixin red-ball-1 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 190px;
+  top: 590px;
+  border-radius: 50%;
+  background: $linear-grad-red-ball;
+  box-shadow: $box-shadow-balls;
+  z-index: -1;
+}
+
+@mixin decorations {
+  position: absolute;
+  right: 90px;
+  top: 2880px;
+  transform: rotate(-16.32deg);
+  z-index: -1;
+}
+
+@mixin decorations-1 {
+  position: absolute;
+  left: 480px;
+  top: 3085px;
+  transform: rotate(26deg);
+  z-index: -1;
+}
+
+@mixin testimonials-span {
+  position: absolute;
+  height: 5.25px;
+  left: 104px;
+  top: -215px;
+  transform: rotate(1deg);
+}
+
+@mixin testimonials-span-1 {
+  position: absolute;
+  left: 705px;
+  top: 314px;
+  z-index: -1;
+  transform: rotate(15deg);
+}
+
+@mixin collaboration-gridofdots-1 {
+  position: absolute;
+  left: 605px;
+  top: 45px;
+  z-index: -1;
+}
+
+@mixin collaboration-gridofdots-2 {
+  position: absolute;
+  right: 90px;
+  top: 270px;
+  z-index: -1;
+}
